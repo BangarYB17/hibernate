@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+           <class name="test.Customer" table="customer">
+                  <id name="id" column="c_id">
+                        <generator class="increment"></generator>
+                  </id>
+                  
+                  <property name="name" column="c_name"></property>
+                  <property name="city" column="c_city"></property>
+                  <property name="mobile_no" column="c_mob_no"></property>
+           </class>
+</hibernate-mapping>
