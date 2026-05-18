@@ -21,14 +21,15 @@ public class CustomerDataAccess {
 		
 		//step 4 :create object of java bean class
 		Transaction tx = session.beginTransaction();
-		Customer cust = new Customer("Jayesh","Jalgaon","9235687452");
+		Customer cust = new Customer("Vaibhav","Bhusaval","9025413658");
 		session.save(cust);
 		
 		tx.commit();
 		
 		System.out.println("Data Added Successfully!");
-		factory.close();
 		session.close();
+		factory.close();
+		
 	}
 
 }
