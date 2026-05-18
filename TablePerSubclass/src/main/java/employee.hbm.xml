@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="test.Employee" table="emp_tps" >
+		<id name="id" column="Id">
+			<generator class="increment">
+
+			</generator>
+		</id>
+		<property name="name" column="Name"></property>
+		
+		<joined-subclass name="test.Reg_emp" table="reg_tps" >
+		<key column="eid"></key>
+		         <property name="salary" column="Salary"></property>
+		         <property name="bonus" column="Bonus"></property>
+		</joined-subclass>
+		
+		<joined-subclass name="test.Contract_emp" table="con_tps" >
+		<key column="eid"></key>
+		         <property name="pay_per_hour" column="Pay_per_hour"></property>
+		         <property name="contract_period" column="Contract_period"></property>
+		</joined-subclass>
+	</class>
+</hibernate-mapping>
+
