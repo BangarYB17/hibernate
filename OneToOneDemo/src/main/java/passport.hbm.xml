@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hibernate-mapping>
-           <class name="test.Passport" table="passport_rel">
+           <class name="test.Passport" table="passport">
                   <id name="pass_id" column="pass_id">
                         <generator class="increment"></generator>
                   </id>

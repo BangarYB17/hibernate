@@ -18,10 +18,10 @@ public class StoreData {
 		Transaction tx = session.beginTransaction();
 		
 		Person p1 = new Person();
-		p1.setName("Lekhit");
+		p1.setName("Yogeshwar");
 		
 		Passport ps1 = new Passport();
-		ps1.setP_number("AB123");
+		ps1.setP_number("YB10022004");
 
 		p1.setPassport(ps1);
 
