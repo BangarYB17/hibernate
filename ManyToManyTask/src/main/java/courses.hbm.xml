@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="test.Courses" table="courses">
+		<id name="id" column="cid">
+			<generator class="increment"></generator>
+		</id>
+
+		<property name="cname"></property>
+
+	</class>
+</hibernate-mapping>
