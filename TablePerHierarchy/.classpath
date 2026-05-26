@@ -15,7 +15,11 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/hibernate jar files/antlr-2.7.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/hibernate jar files/byte-buddy-1.12.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/hibernate jar files/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/hibernate jar files/classmate-1.5.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/hibernate jar files/FastInfoset-1.2.15.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/hibernate jar files/hibernate-commons-annotations-5.1.2.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/hibernate jar files/hibernate-core-5.6.10.Final.jar"/>
